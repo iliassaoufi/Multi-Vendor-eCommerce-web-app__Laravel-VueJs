@@ -1,0 +1,53 @@
+.section-title h2 {
+  font-size: 38px;
+  color: #222;
+  font-weight: 300;
+  margin: 20px auto;
+}
+.section-title h2::before {
+  width: 200px;
+  content: "";
+  left: -230px;
+}
+.section-title h2::after {
+  content: "";
+  right: -230px;
+  width: 200px;
+}
+.section-title h2::after,
+.section-title h2::before {
+  background-color: rgba(51, 51, 51, 0.753);
+  height: 2px;
+  border-radius: 20px;
+}
+div {
+  animation-name: animation-slow;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes animation-slow {
+  0% {
+  }
+  100% {
+  }
+}
+
+//--------------------------
+.welcome-content h1:before {
+  position: absolute;
+  background-color: #070508d2;
+
+  margin: 0 0;
+}
+.custom-file-label {
+  background: transparent;
+  border: 1px solid #c1c1c1;
+  height: 40px;
+  padding: 2px 14px;
+  margin-bottom: 30px;
+  color: #000;
+  border-radius: 0px;
+  padding-top: 9px;
+  color: #434343;
+}

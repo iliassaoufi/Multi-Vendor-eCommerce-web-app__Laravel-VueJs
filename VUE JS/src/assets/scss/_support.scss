@@ -1,0 +1,254 @@
+/*-------- 4. Support style  -------*/
+
+.support-wrap {
+  display: flex;
+  .support-icon {
+    flex: 0 0 50px;
+    margin-right: 20px;
+    img {
+      width: 100%;
+    }
+  }
+  .support-content {
+    h5 {
+      font-size: 18px;
+      margin: 0 0 5px;
+    }
+    p {
+      color: #666;
+      margin: 0;
+    }
+  }
+  &.support-2 {
+    margin-left: 22px;
+    @media #{$lg-layout} {
+      margin-left: 0px;
+    }
+    @media #{$md-layout} {
+      margin-left: 0px;
+    }
+    @media #{$xs-layout} {
+      margin-left: 0px;
+    }
+    .support-icon {
+      flex: 0 0 41px;
+    }
+  }
+  &.support-3 {
+    margin-left: 9px;
+    @media #{$lg-layout} {
+      margin-left: 0px;
+    }
+    @media #{$md-layout} {
+      margin-left: 0px;
+    }
+    @media #{$xs-layout} {
+      margin-left: 0px;
+    }
+    .support-icon {
+      flex: 0 0 41px;
+    }
+  }
+  &.support-4 {
+    margin-left: 23px;
+    @media #{$lg-layout} {
+      margin-left: 0px;
+    }
+    @media #{$md-layout} {
+      margin-left: 0px;
+    }
+    @media #{$xs-layout} {
+      margin-left: 0px;
+    }
+    .support-icon {
+      flex: 0 0 35px;
+    }
+  }
+  &:hover .support-icon img {
+    animation: 500ms ease-in-out 0s normal none 1 running tada;
+  }
+}
+
+/* support hm3 */
+.support-wrap-2 {
+  .support-content-2 {
+    h5 {
+      font-size: 18px;
+      color: #494949;
+      margin: 15px 0 15px;
+      line-height: 24px;
+    }
+    p {
+      font-size: 14px;
+      color: #6a6a6a;
+      margin: 0 auto;
+      width: 80%;
+      @media #{$md-layout} {
+        width: 100%;
+      }
+    }
+  }
+  &:hover .support-content-2 img {
+    animation: 500ms ease-in-out 0s normal none 1 running tada;
+  }
+  &.support-shape {
+    position: relative;
+    &:before {
+      position: absolute;
+      right: -14px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #d5d4d4;
+      height: 61px;
+      width: 1px;
+      content: "";
+    }
+  }
+  &.support-shape-2 {
+    border: 4px solid #fff;
+  }
+  &.support-shape-3 {
+    border: 4px solid #f6f6f6;
+  }
+  &.support-padding-2 {
+    padding: 36px 10px 30px;
+    @media #{$lg-layout} {
+      padding: 36px 5px 30px;
+    }
+    @media #{$xs-layout} {
+      padding: 36px 6px 30px;
+    }
+  }
+}
+
+.support-bg-color-1 {
+  background-color: #ccfbe9;
+}
+
+.support-bg-color-2 {
+  background-color: #f2fbcc;
+}
+
+.support-bg-color-3 {
+  background-color: #ddfbcc;
+}
+
+.support-bg-color-black {
+  background-color: #303030;
+}
+
+.support-wrap-3 {
+  position: relative;
+  padding: 30px 10px 24px;
+  overflow: hidden;
+  .support-icon-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .support-content-3 {
+    img {
+    }
+    p {
+      color: #000000;
+      margin: 4px 0 0;
+      font-size: 16px;
+      text-transform: uppercase;
+      @media #{$xs-layout} {
+        font-size: 15px;
+      }
+      @media #{$sm-layout} {
+        font-size: 14px;
+      }
+    }
+    &.support-content-3-white {
+      p {
+        color: #fff;
+      }
+    }
+  }
+  &:hover .support-icon-2 img {
+    animation: 500ms ease-in-out 0s normal none 1 running tada;
+  }
+}
+
+.support-wrap-4-border {
+  border: 1px solid #eeeeee;
+  padding: 50px 0 20px;
+  @media #{$md-layout} {
+    padding: 50px 10px 20px;
+  }
+}
+
+.support-wrap-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media #{$md-layout} {
+    display: block;
+    text-align: center;
+  }
+  @media #{$xs-layout} {
+    display: block;
+    text-align: center;
+  }
+  .support-icon-4 {
+    margin-right: 32px;
+    @media #{$md-layout} {
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+    @media #{$xs-layout} {
+      margin-right: 0px;
+      margin-bottom: 15px;
+    }
+    img {
+      width: auto;
+      transition: all 0.3s ease 0s;
+    }
+  }
+  .support-content-4 {
+    h5 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #212121;
+      margin: 0 0 6px;
+      letter-spacing: 0.4px;
+      @media #{$md-layout} {
+        font-size: 18px;
+      }
+      @media #{$xs-layout} {
+        font-size: 18px;
+      }
+    }
+    p {
+      font-weight: 300;
+      color: #080808;
+      margin: 0 0 0px;
+      letter-spacing: 0.6px;
+    }
+  }
+  &:hover {
+    .support-icon-4 {
+      img {
+        animation: 500ms ease-in-out 0s normal none 1 running tada;
+      }
+    }
+  }
+}
+
+@media #{$xs-layout} {
+  .support-area {
+    &.pt-80 {
+      padding-top: 30px;
+    }
+  }
+  .suppoer-area {
+    &.pb-60 {
+      padding-bottom: 50px;
+    }
+    &.pb-100 {
+      padding-bottom: 50px;
+    }
+  }
+}

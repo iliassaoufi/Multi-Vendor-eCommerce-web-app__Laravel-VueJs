@@ -1,0 +1,196 @@
+/*------ 10. Suscribe style  ------*/
+
+.subscribe-style-2 {
+  h2 {
+    font-size: 48px;
+    color: #010101;
+    margin: 0 0 23px;
+    @media #{$xs-layout} {
+      font-size: 30px;
+      margin: 0 0 12px;
+    }
+  }
+  p {
+    font-size: 16px;
+    color: #696969;
+    margin: 0 0 23px;
+  }
+  .subscribe-form-2 {
+    form {
+      input {
+        background: transparent;
+        border: none;
+        height: 45px;
+        padding: 2px 50px 2px 0;
+        font-size: 14px;
+        color: #333;
+        border-bottom: 2px solid #e2e2e2;
+      }
+      .mc-news {
+        display: none;
+      }
+      .mc-form {
+        position: relative;
+      }
+      .clear-2 {
+        //   background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/suscribe.png") no-repeat scroll right 0 center;
+        bottom: 0px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        input {
+          border: medium none;
+          padding: 0;
+          text-indent: -99999px;
+          width: 37px;
+        }
+      }
+    }
+  }
+}
+
+.subscribe-area-3.pb-100 {
+  @media #{$xs-layout} {
+    padding-bottom: 60px;
+  }
+}
+.subscribe-style-3 {
+  h2 {
+    font-size: 48px;
+    color: #010101;
+    margin: 0 0 23px;
+    @media #{$xs-layout} {
+      font-size: 35px;
+      margin: 0 0 12px;
+    }
+    @media #{$md-layout} {
+      font-size: 40px;
+    }
+  }
+  p {
+    font-size: 16px;
+    color: #696969;
+    margin: 0;
+    line-height: 1;
+  }
+  .subscribe-form-3 {
+    input {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid #e2e2e2;
+      text-align: center;
+      color: #333;
+      height: 46px;
+    }
+    .mc-news {
+      display: none;
+    }
+    .clear-3 {
+      margin-top: 40px;
+      input {
+        width: auto;
+        height: auto;
+        color: #fff;
+        background-color: #070508;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 17px 55px;
+        border-radius: 5px;
+        border: none;
+        &:hover {
+          background-color: $theme-color;
+        }
+      }
+      &.red-subscribe {
+        input {
+          background-color: #df262b;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+      &.red-subscribe-2 {
+        input {
+          background-color: #ff3d2a;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+      &.green-subscribe {
+        input {
+          background-color: #6eab49;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+      &.red-2-subscribe {
+        input {
+          background-color: #e90042;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+      &.red-3-subscribe {
+        input {
+          background-color: #c61a32;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+      &.subscribe-radious {
+        input {
+          border-radius: 50px;
+        }
+      }
+      &.pink-subscribe {
+        input {
+          background-color: #ed59a0;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+      }
+    }
+  }
+  &.subscribe-style-3-white {
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+    }
+    .subscribe-form-3 {
+      input {
+        border-bottom: 2px solid #e2e2e2;
+        color: #cacaca;
+      }
+      .mc-news {
+        display: none;
+      }
+      .clear-3 {
+        margin-top: 40px;
+        input {
+          color: #fff;
+          border: none;
+          &:hover {
+            background-color: $theme-color;
+          }
+        }
+        &.red-2-subscribe {
+          input {
+            background-color: #e90042;
+            &:hover {
+              background-color: $theme-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
